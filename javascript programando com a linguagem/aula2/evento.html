@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Todo suply a title</title>
+        <meta charset="UTF-8">
+        <META NAME="viewport" content="width=device-width, initial-scale=1.0">
+            <script type="text/javascript" asnyc="asnyc">
+                function information(){
+                    var name = window.prompt('digite seu nome');
+                    var idade = window.prompt('digite sua idade');
+                    window.alert(nome + ' ' + idade);
+                }
+            </script>
+    </head>
+    <body>
+        <input type="button" id="um" value="um" onclick="javascript:information()">
+        <br><br>
+        <input type="button" id="dois" value="dois" ondblclick="information()">
+        <br><br>
+        <hr>
+        <input type="text" id="nome" value="impacta">
+
+        <script>
+            window.document.getElementByid('nome').value = "alexandre";
+        </script>
+    </body>
+</html>
