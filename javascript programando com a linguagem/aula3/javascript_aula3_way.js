@@ -33,4 +33,33 @@ console.log(resultado); // e para gerar o not a number NaN
 console.log(curso);
 console.log(idade);
 
+//constantes
+const Escola = 'impacta';
+console.log(Escola);
+
+
+//escopo da variavel
+var a = 9;
+b = 7;
+function escopo(){
+    var a = 18;
+    b = 14;
+    //alert (a+''+b);
+}
+escopo();
+console.log(a);
+console.log(b);
+
+//objeto
+function aluno(nome,idade,curso){
+    this.nome =nome;
+    this.idade = idade;
+    this.curso = curso;
+}
+
+var aluno1 = new aluno('Alexandre', 25, 'js');
+var aluno2 = new aluno('Fabiano', 39, 'php');
+console.log(aluno1);
+console.log(aluno2);
+console.log(aluno1.nome);
 
