@@ -22,6 +22,3 @@ function multiplicar(x) {
     return function(n){return x*n}
 }
 var multi = multiplicar(10);
-
-var multi2 = function (n) { return 10 * n };
-console.log(multi2(15));

@@ -4,9 +4,7 @@ function potencia(pot, num)
     for (i = 1; i <= pot; i++) { 
         total = total *num;
     }
-    return {
-        'calculo': total, 'base': num, 'expoent': pot
-    };
+    return ['calculo':total,'base' num, pot];
 }
 var resultado = potencia(2, 3) + potencia(3, 2);
 console.log(resultado);
@@ -15,13 +13,3 @@ console.log(potencia(potencia(2, 3), 2));
 console.log(resultado[0]);
 console.log(resultado[1]);
 console.log(resultado[2]);
-
-
-//clousers
-function multiplicar(x) {
-    return function(n){return x*n}
-}
-var multi = multiplicar(10);
-
-var multi2 = function (n) { return 10 * n };
-console.log(multi2(15));
