@@ -91,28 +91,3 @@ while (cont <= 50) {
     cont++;
 }
 
-var parar = 3;
-var cont = 1;
-while (cont <= 50) {
-    if (parar == cont) {
-        cont++;
-        continue;
-    }
-    console.log(cont + ",");
-    cont++;
-}
-
-//for
-for (i = 1; i <= 50; i++) {
-    if (i % 3 == 0) {
-        console.log(i + ",");
-    }
-    
-}
-
-//do-while
-var cont = 1;
-do {
-    console.log(cont + ",");
-    cont++;
-} while (cont <= 10);

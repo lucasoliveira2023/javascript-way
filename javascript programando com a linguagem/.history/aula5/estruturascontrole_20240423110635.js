@@ -103,16 +103,10 @@ while (cont <= 50) {
 }
 
 //for
-for (i = 1; i <= 50; i++) {
-    if (i % 3 == 0) {
-        console.log(i + ",");
-    }
-    
-}
 
-//do-while
-var cont = 1;
-do {
+for (var cont = 1; cont <= 50; cont++) {
     console.log(cont + ",");
-    cont++;
-} while (cont <= 10);
+    if (parar == cont) {
+        break;
+    }
+}

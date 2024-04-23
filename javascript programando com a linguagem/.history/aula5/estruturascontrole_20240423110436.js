@@ -101,18 +101,3 @@ while (cont <= 50) {
     console.log(cont + ",");
     cont++;
 }
-
-//for
-for (i = 1; i <= 50; i++) {
-    if (i % 3 == 0) {
-        console.log(i + ",");
-    }
-    
-}
-
-//do-while
-var cont = 1;
-do {
-    console.log(cont + ",");
-    cont++;
-} while (cont <= 10);
