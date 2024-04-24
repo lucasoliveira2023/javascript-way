@@ -1,0 +1,8 @@
+var regexp1 = new RegExp('imp');
+var string1 = 'impacta';
+
+console.log(regexp1.test(string1));
+
+
+
+var regexp2 = /imp/;
